@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Tablas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            text-align: center;
+            align-items: center;
+        }
+
+        table {
+            margin-left: 18%;
+        }
+
+        h1{
+            text-decoration: underline;
+        }
+
+        .tAbajo {
+            text-decoration: underline;
+            font-size: larger;
+        }
+
+        .terceroA {
+            color: red;
+            font-weight: bold;
+        }
+
+        .diaSemana {
+            font-size: 28px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: rgb(163, 18, 163);
+        }
+
+        .horario {
+            background-color: rgba(135, 206, 250, 0.704);
+            font-size: larger;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .mate{
+            background-color: rgb(224, 0, 0);
+            font-size: large;
+        }
+
+        .lengua{
+            background-color: blue;
+            font-size: large;
+        }
+
+        .sociales{
+            background-color: rgb(255, 115, 63);
+            font-size: large;
+        }
+
+        .natu{
+            background-color: yellowgreen;
+            font-size: large;
+        }
+
+        .musica{
+            background-color: palevioletred;
+            font-size: large;
+        }
+
+        .deporte{
+            background-color: rgb(25, 164, 189);
+            font-size: large;
+        }
+
+        .ingles{
+            background-color: yellow;
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+        En esta página web he tratado de centrar el horario, agrandar la letra y
+        poner una letra sencilla (Arial) para cambiar para ser mucho más sencilla
+        y agradable de ver, sobre todo para encontrar rápido el día y las clases 
+        que le tocan al usuario, por las Pautas de Accesibilidad para el Contenido
+        Web 1.1.1., 1.4.1, 1.4.2, 1.4.12. Además de a cada asignatura destacarla
+        con un color en cada celda que sirve de regla memotécnica para acordarse
+        mejor de cada asignatura. Destacando también el texto de abajo de la tabla
+        que indica de cual es la clase del horario, destacando esta en rojo y 
+        negrita.
+    -->
+    <h1>Tablas</h1>
+
+    <table border="1">
+        <tr>
+            <td class="diaSemana">
+                <p></p>
+            </td>
+            <td class="diaSemana">
+                <p class="diaSemana"><strong>Lunes</strong></p>
+            </td>
+            <td class="diaSemana">
+                <p class="diaSemana"><strong>Martes</strong></p>
+            </td>
+            <td class="diaSemana">
+                <p class="diaSemana"><strong>Miércoles</strong></p>
+            </td>
+            <td class="diaSemana">
+                <p class="diaSemana"><strong>Jueves</strong></p>
+            </td>
+            <td class="diaSemana">
+                <p class="diaSemana"><strong>Viernes</strong></p>
+            </td>
+        </tr>
+        <tr>
+            <td class="horario">
+                <p><strong>10:00</strong></p>
+            </td>
+            <td class="mate">
+                <p class="mate">Matemáticas</p>
+            </td>
+            <td class="mate">
+                <p class="mate">Matemáticas</p>
+            </td>
+            <td class="mate">
+                <p class="mate">Matemáticas</p>
+            </td>
+            <td class="mate">
+                <p class="mate">Matemáticas</p>
+            </td>
+            <td class="mate">
+                <p class="mate">Matemáticas</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="horario">
+                <p><strong>11:00</strong></p>
+            </td>
+            <td class="lengua">
+                <p class="lengua">Lengua</p>
+            </td>
+            <td class="lengua">
+                <p class="lengua">Lengua</p>
+            </td>
+            <td class="lengua">
+                <p class="lengua">Lengua</p>
+            </td>
+            <td class="lengua">
+                <p class="lengua">Lengua</p>
+            </td>
+            <td class="lengua">
+                <p class="lengua">Lengua</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="horario">
+                <p><strong>12:00</strong></p>
+            </td>
+            <td class="sociales">
+                <p class="sociales">C.Sociales</p>
+            </td>
+            <td class="natu">
+                <p class="natu">C.Naturales</p>
+            </td>
+            <td class="sociales">
+                <p class="sociales">C.Sociales</p>
+            </td>
+            <td class="natu">
+                <p class="natu">C.Naturales</p>
+            </td>
+            <td class="deporte">
+                <p class="deporte">Deporte</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="horario">
+                <p><strong>13:00</strong></p>
+            </td>
+            <td class="ingles">
+                <p class="ingles">Inglés</p>
+            </td>
+            <td class="ingles">
+                <p class="ingles">Inglés</p>
+            </td>
+            <td class="ingles">
+                <p class="ingles">Inglés</p>
+            </td>
+            <td class="ingles">
+                <p class="ingles">Inglés</p>
+            </td>
+            <td class="musica">
+                <p class="musica">Música</p>
+            </td>
+        </tr>
+    </table>
+
+    <p class="tAbajo">~ En esta tabla puede verse el horario de la clase <span class="terceroA">3ºA</span> ~</p>
+
+</body>
+
+</html>

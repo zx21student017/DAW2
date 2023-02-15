@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Organización</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            text-align: center;
+            margin: 0px;
+        }
+
+        h1 {
+            margin: 0px;
+            background-color: gray;
+            padding-bottom: 1%;
+            padding-top: 1%;
+            font-size: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        p {
+            align-items: center;
+            text-align: center;
+        }
+
+        table {
+            width: 98%;
+            text-align: center;
+            border: 3px solid darkblue;
+            border-radius: 15px;
+            margin: 15px;
+            margin-top: 25px;
+            border-collapse: collapse;
+        }
+
+        .titulo {
+            background-color: blue;
+            border-bottom: 2px solid black;
+        }
+
+        h2 {
+            color: aliceblue;
+            font-size: 32px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h3 {
+            text-decoration: underline 4px blue;
+            font-weight: bold;
+            font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+        }
+
+        .eslogan {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+
+        td {
+            border-color: black;
+        }
+
+        .noticia1 {
+            background-color: aquamarine;
+        }
+
+        .noticia2 {
+            background-color:yellowgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+        En esta página web he cambiado todas las fuentes y tamaños de esta para que sean mucho más
+        agradables a la vista y que llamen más la atención las noticias, gracias a fondos en la tabla
+        llamativos, y creando un menú para el título. Esta información la he sacado de la página WCAG
+        2.1 en el apartado 1.1.1 Aria6 y  H35.         
+
+    -->
+    <h1><b>Nombre de la empresa</b></h1>
+    <p class="eslogan">Eslogan de la empresa</p>
+
+    <table>
+        <tr>
+            <td class="titulo">
+                <h2><b>Noticias</b></h2>
+            </td>
+        </tr>
+        <div class="noticia1">
+            <tr class="noticia1">
+                <td class="noticia1">
+                    <h3><b>Noticia 1</b></h3>
+                </td>
+            </tr>
+            <tr class="noticia1">
+                <td class="noticia1">
+                    <p>Desarrollo de la noticia 1</p>
+                </td>
+            </tr>
+        </div>
+
+        <div class="noticia2">
+            <tr class="noticia2">
+                <td class="noticia2">
+                    <h3><b>Noticia 2</b></h3>
+                </td>
+            </tr>
+            <tr class="noticia2">
+                <td class="noticia2">
+                    <p>Desarrollo de la noticia 2</p>
+                </td>
+            </tr>
+        </div>
+    </table>
+
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea09_1</title>
+    <style>
+        *{
+            font-size: 40px;
+            color: antiquewhite;
+            text-align: center;
+        }
+        .col1 {
+            width: 450px;
+            height: 400px;
+            background: purple;
+            float: left;
+        }
+
+        .col2 {
+            width: 300px;
+            height: 250px;
+            background: yellow;
+            float: left;
+            color: green;
+        }
+
+        .col3 {
+            width: 250px;
+            height: 90px;
+            background: rgb(221, 66, 221);
+            float: left;
+            color: black;
+        }
+
+
+        @media (max-width: 760px) {
+
+            .col1,
+            .col2,
+            .col3 {
+                width: 100%;
+                float: none;
+            }
+
+
+            .col2,
+            .col3 {
+                clear: both;
+            }
+
+            .col2{
+                color: green;
+            }
+
+            .col3{
+                color: black;
+            }
+        }
+
+        @media (min-width: 400px) and (max-width: 700px) {
+
+            .col2,
+            .col3 {
+                float: left;
+                width: 100%;
+            }
+
+            .col3 {
+                clear: both;
+            }
+        }
+    </style>
+
+<body>
+    <div class="col1">1 Columna</div>
+    <div class="col2">2 Columna</div>
+    <div class="col3">3 Columna</div>
+</body>
+
+
+</html>

@@ -1,0 +1,139 @@
+/**referencias a otras fuentes**/
+@import url('http://fonts.cdnfonts.com/css/another-xanadu');
+
+/**CUERPO**/
+* {
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/**CABECERA**/
+.menu {
+    background-color: rgb(124, 124, 124);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    padding-top: 1%;
+    z-index: 1;
+    padding-bottom: 5%;
+}
+
+.letrasMenu{
+    font-size: 0.5rem;
+}
+
+@media (min-width:1200px) {
+    
+    .letrasMenu{
+        font-size: 1.75rem;
+    }
+}
+
+.menuUl {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    margin-left: 0px;
+   
+}
+
+.icono {
+    margin-top: 7px;
+    width: 62px;
+    height: 62px;
+    
+}
+
+.icono:hover {
+    width: 62px;
+    height: 62px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.menuLi {
+    margin-top: 20px;
+    height: 30px;
+    float: left;
+    font-family: 'Another Xanadu', sans-serif;
+    display: flex;
+    flex-direction: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.menuLi:hover {
+    border-top: 30px;
+    background-color: sandybrown;
+}
+
+/**CUERPO PÁGINA**/
+
+
+.cuerpo {
+    background: url("fotos/soporteFondo.png") no-repeat;
+    position: relative;
+    padding-top: 9%;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.formulario{
+    margin: 5%;
+    color: white;
+    font-size: 18px;
+}
+
+
+/**PIE PÁGINA**/
+.tablaPie{
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+.soldadito{
+    width: 75px;
+    height: 75px;
+}
+
+.iconoF {
+    width: 52px;
+    height: 52px;
+    padding-top: 10px;
+}
+
+.iconoF:hover {
+    width: 50px;
+    height: 50px;
+}
+
+.contacto{
+    font-family: 'Another Xanadu', sans-serif;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.sugerencias{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 18px;
+    font-size: 16px;
+}
+
+.pie {
+    background-color: rgb(124, 124, 124);
+    margin-bottom: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}

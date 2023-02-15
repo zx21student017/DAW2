@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel=" stylesheet ">
+    <link href="http://fonts.cdnfonts.com/css/arcaderfs" rel="stylesheet">
+
+    <link href="css/preguntas.css" rel="stylesheet">
+
+    <title>Overwatch2</title>
+</head>
+
+<body>
+    <!--MENÚ PARA ESCOGER LA SECCIÓN QUE QUERAMOS-->
+    <div class="menu">
+        <ul class="menuUl">
+            <a href="inicio.html"><svg class="icono" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    part="icon blz-icon">
+                    <path
+                        d="M13.8994 13.901C15.2258 12.5745 16.8005 11.5223 18.5335 10.8044C20.2666 10.0865 22.124 9.71702 23.9999 9.71702C25.8757 9.71702 27.7332 10.0865 29.4663 10.8044C31.1993 11.5223 32.774 12.5745 34.1004 13.901L38.1426 9.85874C36.2854 8.00131 34.0806 6.5279 31.654 5.52265C29.2274 4.5174 26.6265 4 23.9999 4C21.3733 4 18.7724 4.5174 16.3458 5.52265C13.9192 6.5279 11.7143 8.00131 9.85718 9.85874L13.8994 13.901Z"
+                        fill="#ED6516"></path>
+                    <path
+                        d="M39.3118 11.1345L35.2491 15.1972C37.03 17.4739 38.0784 20.2371 38.2561 23.122C38.4338 26.007 37.7323 28.878 36.2444 31.3559L28.8906 24.0007L24.8849 14.5878H24.8644V27.3108L32.8028 35.2491C30.2895 37.2148 27.1907 38.2828 24 38.2828C20.8093 38.2828 17.7105 37.2148 15.1973 35.2491L23.1356 27.3108V14.636L19.1094 24.0007L11.7542 31.3559C10.267 28.8776 9.56614 26.0067 9.74408 23.1218C9.92201 20.237 10.9704 17.474 12.7509 15.1972L8.68818 11.1345C6.23794 14.0502 4.67109 17.6048 4.17186 21.3805C3.67263 25.1561 4.26178 28.9958 5.87003 32.4481C7.47829 35.9004 10.0388 38.8217 13.2505 40.8686C16.4622 42.9155 20.1915 44.0029 24 44.0029C27.8085 44.0029 31.5379 42.9155 34.7495 40.8686C37.9612 38.8217 40.5217 35.9004 42.13 32.4481C43.7382 28.9958 44.3274 25.1561 43.8282 21.3805C43.3289 17.6048 41.7621 14.0502 39.3118 11.1345V11.1345Z"
+                        fill="#333E48"></path>
+                </svg></a>
+
+            <li class="menuLi"><a href="inicio.html #imgPersonajesDps">
+                    <h3 class="letrasMenu">PERSONAJES</h3>
+                </a></li>
+            <li class="menuLi"><a href="modosJuegos.html">
+                    <h3 class="letrasMenu">MODOS DE JUEGO</h3>
+                </a></li>
+
+            <li class="menuLi"><a href="preguntas.html">
+                    <h3 class="letrasMenu">CONTACTO</h3>
+                </a></li>
+        </ul>
+    </div>
+
+    <!--CUERPO CON EL CONTENIDO-->
+    <div class="cuerpo" name="cuerpo" id="cuerpo">
+
+        <div class="divFormulario">
+            <form class="formulario">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Adjunte un email para contactar:</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div><br>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Seleccione el campo que necesita:</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Problemas de conexión</option>
+                        <option>Problemas al descargarlo</option>
+                        <option>Problemas dentro del juego</option>
+                        <option>Reportar jugador</option>
+                        <option>Problemas con las compras</option>
+                        <option>Otro</option>
+                    </select>
+                </div><br>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Explique su queja/pregunta: </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div><br>
+                <div class="form-group">
+                    <label for="exampleFormControlFile1">Adjuntar pruebas de la queja/pregunta: </label>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div><br>
+                <button type="submit" class="btn btn-primary">Mandar</button>
+            </form>
+        </div>
+
+
+    </div>
+
+    <!--PIE DE PÁGINA PARA CONTACTAR CON NOSOTROS-->
+    <div class="pie">
+        <table class="tablaPie">
+            <tr>
+                <td colspan="5"><p class="contacto"><b>Contactanos</b></p></td>
+            </tr>
+            
+
+            <tr>
+                <td><img src="fotos/s76c.gif" alt="" class="soldadito"></td>
+                <td><a href="https://www.facebook.com/OverwatchES"><img src="fotos\iconofacebook1.png" alt=""
+                            class="iconoF"></a></td>
+                <td><a href="https://www.instagram.com/overwatcheu/"><img src="fotos\iconoinstagram1.png" alt=""
+                            class="iconoF"></a></td>
+                <td><a href="https://www.youtube.com/overwatchES"><img src="fotos\iconoyoutube1.png" alt=""
+                            class="iconoF"></a></td>
+                <td><a href="https://www.twitter.com/OverwatchES"><img src="fotos\iconotwitter1.png" alt=""
+                            class="iconoF"></a></td>
+            </tr>
+            <tr>
+                <td colspan="5" class="sugerencias"><a href="preguntas.html">Atención al cliente</a></td>
+            </tr>
+        </table>
+
+    </div>
+
+
+</body>
+
+</html>

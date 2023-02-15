@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+  </head>
+  <body bgcolor="#F2EF23">
+
+    <img src="https://serv3.raiolanetworks.es/blog/wp-content/uploads/formularios.png" alt="formulario" width="100" height="75" align="right">
+    <img src="https://serv3.raiolanetworks.es/blog/wp-content/uploads/formularios.png" alt="formulario" width="100" height="75" align="left"><br>
+    <form class="" action="index.html" method="post">
+
+    <h1 align="center"><u>FORMULARIO</u></h1>
+     <fieldset>
+        <input type="button" name="volver" value="Volver">
+         <legend><b>Iniciar Sesión</b></legend>
+         <p>Usuario: <input type="text" name="usuario"placeholder="usuario/gmail"></p>
+         <p>Contraseña: <input type="password" name="contraseña" placeholder="••••••••"></p>
+         <input type="button" name="envio" value="Entrar">
+         <input type="button" name="perdercontraseña" value="¿Olvidó su Contraseña?">
+
+       <fieldset>
+         <legend><b>Registro</b></legend>
+       <p><i>campos obligatorios *</i></p>
+       <p>Gmail*: <input type="text" name="gmail"placeholder="example@gmail.com" required></p>
+       <p>Usuario*: <input type="text" name="usuario"placeholder="Usuario" required></p>
+       <p>Contraseña*: <input type="password" name="contraseña" placeholder="mayor de 8 dígitos" required></p>
+       <p>Repetir contraseña*: <input type="password" name="contraseña" placeholder="mayor de 8 dígitos" required></p>
+       <p>Fecha de nacimiento: <input type="date" name="check_fecha" value=""><br></p>
+       <input type="checkbox" name="check_permisos" value="" required>Aceptar permisos.*
+       <input type="checkbox" name="check_ofertas" value="">Mandar ofertas.<br><br>
+       <input type="submit" name="envioregistro" value="Enviar Registro">
+       <input type="reset" name="borrar" value="Borrar formulario">
+
+       </fieldset>
+     </fieldset>
+
+     <h2 align="center">¡¡Próximo título que debes jugar!!</h2><br>
+
+        <p><b><tt>1)¿Cuál es tu mayor miedo?</tt></b></p>
+          <input type="radio" name="check1" value="">Oscuridad
+          <input type="radio" name="check1" value="">Payasos
+          <input type="radio" name="check1" value="">Arañas/Insectos
+          <input type="radio" name="check1" value="">Otros: <input type="text" name="otros"placeholder="">
+
+        <p><b><tt>2)¿Cuál color te gusta más?</tt></b></p>
+          <input type="radio" name="check2" value="">Rojo
+          <input type="radio" name="check2" value="">Azul
+          <input type="radio" name="check2" value="">Amarillo
+          <input type="radio" name="check2" value="">Naranja
+          <input type="radio" name="check2" value="">Verde
+          <input type="radio" name="check2" value="">Negro
+          <input type="radio" name="check2" value="">Blanco
+
+        <p><b><tt>3)Si pudieras escoger cualquier lugar ¿Dónde te gustaría vivir?</tt></b></p>
+          <input type="radio" name="check3" value="">Playa
+          <input type="radio" name="check3" value="">Montaña
+          <input type="radio" name="check3" value="">Bosque
+          <input type="radio" name="check3" value="">Ciudad
+          <input type="radio" name="check3" value="">Pueblo
+          <input type="radio" name="check3" value="">Otros: <input type="text" name="otros"placeholder=""> <br>
+
+        <p><b><tt>4)Si fueras un animal, ¿cuál serías?</tt></b></p>
+          <input type="radio" name="check4" value="">Gato
+          <input type="radio" name="check4" value="">Perro
+          <input type="radio" name="check4" value="">Delfín
+          <input type="radio" name="check4" value="">Tigre
+          <input type="radio" name="check4" value="">Elefante
+          <input type="radio" name="check4" value="">Águila
+          <input type="radio" name="check4" value="">Toro
+
+        <p><b><tt>5)Prefieres jugar...</tt></b></p>
+          <input type="radio" name="check5" value="">Solo
+          <input type="radio" name="check5" value="">Acompañado
+
+        <p><b><tt>6)¿Cuales de estos géneros te gustan más?</tt></b></p>
+          <input type="checkbox" name="check6" value="">Arcade
+          <input type="checkbox" name="check6" value="">Simuladores
+          <input type="checkbox" name="check6" value="">Estrategia
+          <input type="checkbox" name="check6" value="">Rol
+          <input type="checkbox" name="check6" value="">Shooters
+          <input type="checkbox" name="check6" value="">Deportes
+          <input type="checkbox" name="check6" value="">Terror
+          <input type="checkbox" name="check6" value="">Plataformas
+          <input type="checkbox" name="check6" value="">Lucha
+          <input type="checkbox" name="check6" value="">Otros: <input type="text" name="otros"placeholder=""> <br>
+
+          <p><tt><b>7)¿Qué marca te gusta más de videoconsolas?</b></tt></p>
+          <select class="" name="selección_consolas">
+            <option value="">Sonny</option>
+            <option value="">Nintendo</option>
+            <option value="">Xbox</option>
+            <option value="">PC</option>
+            <option value="">IOS/Android</option>
+          </select><br><br>
+
+          <p><tt><b>8)¿Piensas que los viedojuegos pueden emplearse para un medio educativo?¿Por qué?</b></tt></p>
+            <textarea name="opinion" rows="8" cols="80" placeholder="Tu respuesta"></textarea>
+
+          <p><tt><b>Por último añada a continuación un archivo que muestre su mejor partida: </b></tt> <input type="file" name="archivo" value="adjuntar archivo"></p>
+
+
+   </form>
+
+  </body>
+</html>
